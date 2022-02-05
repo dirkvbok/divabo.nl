@@ -12,7 +12,7 @@ import styled from "styled-components";
 
 function App() {
   useEffect(() => {
-    document.title = "Dirk";
+    document.title = "Divabo";
   }, []);
 
   return (
