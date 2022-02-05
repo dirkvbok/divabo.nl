@@ -11,7 +11,7 @@ export default function HomePage() {
         <GameCard
           title="SQUAP"
           imageSrc={squaresImage}
-          route="/games/squap"
+          route="/squap"
         ></GameCard>
       </Container>
     </Page>

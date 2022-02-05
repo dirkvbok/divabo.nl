@@ -4,12 +4,11 @@ import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Games from "./routes/games";
 import HomePage from "./routes/home";
 import AboutPage from "./routes/about";
 import ContactPage from "./routes/contact";
 import PrivacyPage from "./routes/privacy";
-import Squap from "./routes/games/squap";
+import Squap from "./routes/squap";
 
 ReactDOM.render(
   <React.StrictMode>
@@ -20,9 +19,7 @@ ReactDOM.render(
           <Route path="about" element={<AboutPage />} />
           <Route path="contact" element={<ContactPage />} />
           <Route path="privacy" element={<PrivacyPage />} />
-          <Route path="games" element={<Games />}>
-            <Route path="squap" element={<Squap />} />
-          </Route>
+          <Route path="squap" element={<Squap />} />
         </Route>
       </Routes>
     </BrowserRouter>

@@ -1,12 +1,13 @@
 import styled from "styled-components";
+import GameCard from "../components/GameCard";
+import googleplaybadge from "../images/googleplaybadge.png";
 import Page from "../components/Page";
-import { Outlet, Link } from "react-router-dom";
 
-export default function Games() {
+export default function Squap() {
   return (
-    <Page style={{ minWidth: "100%" }}>
+    <Page>
       <Container>
-        <Outlet />
+        <GameCard title="SQUAP" imageSrc={googleplaybadge} route="/squap" />
       </Container>
     </Page>
   );
@@ -19,13 +20,4 @@ const Container = styled.div`
   justify-content: center;
   align-content: center;
   align-self: center;
-`;
-
-const Title = styled.h1`
-  font-size: 25px;
-  margin: 5px 0px;
-
-  @media (min-width: 768px) {
-    font-size: 30px;
-  }
 `;
