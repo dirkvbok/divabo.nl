@@ -1,5 +1,6 @@
 import styled from "styled-components";
-import Page from "../components/Page";
+import { Page } from "../components/Page";
+import { Title, SubTitle, Text } from "../components/TextComponents";
 
 export default function PrivacyPage() {
   return (
@@ -26,23 +27,3 @@ export default function PrivacyPage() {
     </Page>
   );
 }
-
-const Title = styled.h1`
-  font-size: 25px;
-  margin: 5px 0px;
-
-  @media (min-width: 768px) {
-    font-size: 30px;
-  }
-`;
-
-const SubTitle = styled.h3`
-  font-size: 20px;
-  margin: 0;
-
-  @media (min-width: 768px) {
-    font-size: 25px;
-  }
-`;
-
-const Text = styled.p``;
