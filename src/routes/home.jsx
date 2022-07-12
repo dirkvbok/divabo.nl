@@ -1,12 +1,12 @@
 import * as React from "react";
 import styled from "styled-components";
-import Page from "../components/Page";
+import { CenteredPage } from "../components/CenteredPage";
 import GameCard from "../components/GameCard";
 import squaresImage from "../images/squares.png";
 
 export default function HomePage() {
   return (
-    <Page style={{ minWidth: "100%" }}>
+    <CenteredPage>
       <Container>
         <GameCard
           title="SQUAP"
@@ -14,7 +14,7 @@ export default function HomePage() {
           route="/squap"
         ></GameCard>
       </Container>
-    </Page>
+    </CenteredPage>
   );
 }
 
@@ -23,6 +23,5 @@ const Container = styled.div`
   flex-direction: column;
   flex: 1;
   justify-content: center;
-  align-content: center;
   align-self: center;
 `;

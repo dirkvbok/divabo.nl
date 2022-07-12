@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import Page from "../components/Page";
+import { Page } from "../components/Page";
 import { Outlet, Link } from "react-router-dom";
 
 export default function Games() {

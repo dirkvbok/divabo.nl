@@ -18,4 +18,6 @@ export const SubTitle = styled.h3`
   }
 `;
 
-export const Text = styled.p``;
+export const Text = styled.p`
+  max-width: 550px;
+`;

@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import Page from "../components/Page";
+import { Page } from "../components/Page";
 import { Title, SubTitle, Text } from "../components/TextComponents";
 
 export default function PrivacyPage() {
