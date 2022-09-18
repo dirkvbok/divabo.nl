@@ -28,7 +28,11 @@ export default function Squap() {
           </Text>
 
           <BadgeContainer>
-            <a href="https://play.google.com/store/apps/details?id=nl.divabo.games.squap&hl=nl&gl=US&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1">
+            <a
+              href="https://play.google.com/store/apps/details?id=nl.divabo.games.squap&hl=nl&gl=US&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <BadgeImage
                 alt="Get it on Google Play"
                 src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png"
@@ -73,7 +77,9 @@ const ImageContainer = styled.div`
   justify-content: center;
 `;
 
-const Image = styled.img``;
+const Image = styled.img`
+  height: 300px;
+`;
 
 const TextContainer = styled.div`
   display: flex;
@@ -82,9 +88,9 @@ const TextContainer = styled.div`
 
 const BadgeContainer = styled.div`
   display: flex;
-  width: 100px;
 `;
 
 const BadgeImage = styled.img`
   width: 200px;
+  margin: 0;
 `;
