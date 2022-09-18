@@ -10,12 +10,6 @@ export default function ContactPage() {
   );
 }
 
-const Container = styled.div`
-  background: #fff090;
-  text-align: center;
-  width: 80%;
-`;
-
 const Title = styled.h1`
   font-size: 25px;
   margin: 5px 0px;

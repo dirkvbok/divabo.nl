@@ -1,9 +1,6 @@
 import styled from "styled-components";
-import GameCard from "../components/GameCard";
-import googleplaybadge from "../images/googleplaybadge.png";
-import { Page } from "../components/Page";
 import { CenteredPage } from "../components/CenteredPage";
-import { Title, SubTitle, Text } from "../components/TextComponents";
+import { Title, Text } from "../components/TextComponents";
 import squaresImage from "../images/squares.png";
 
 export default function Squap() {
